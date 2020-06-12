@@ -4,19 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { PlayingCard } from './PlayingCard';
 
-const features = {
-    //            blue        red        green
-        'color': ['#48b0ba', '#ba5d48', '#48ba5f'],
-        'shape': ['circle', 'square', 'swoosh'],
-        'filling': ['full', 'none', 'mottled'],
-        'amount': [1, 2, 3]
-    }
-
 export class HowToPlayModule extends React.Component {
-
-    constructor(props){
-        super(props);
-    }
 
     render() {
         return (
